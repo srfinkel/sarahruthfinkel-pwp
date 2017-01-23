@@ -1,4 +1,22 @@
-h1, p {
-	font-family: "Arial", sans-serif;
+h1 {
+	font-family: "Helvetica Neue", sans-serif;
+	color: gray;
+}
+body {
+	background-color: lightcyan;
+}
+.title {
+	font-family: "Helvetica Neue", sans-serif;
+	color: mediumaquamarine;
+	font-size: 30px;
+}
+p {
+	font-family: "Helvetica", sans-serif;
 	color: dimgrey;
+}
+.bold {
+	color: #ffa800;
+}
+.website {
+	color: mediumvioletred;
 }
