@@ -28,8 +28,8 @@
 		<strong class="title">Wireframes</strong>
 
 			<p>This site will be fully responsive on both mobile and desktop screens. These wireframes were created using <a href="https://balsamiq.com/" class="website">balsamiq</a>. The fourth mobile wireframe is an example of the responsive image gallery.</p>
-			<div><img src="../../images/sarahruthfinkel-mobile.png"></div><br>
-			<div><img src="../../images/sarahruthfinkel-desktop.png"></div>
+			<div><h1>Mobile Layout</h1><br><img src="../../images/sarahruthfinkel-mobile.png"></div>
+			<div><h1>Desktop Layout</h1><br><img src="../../images/sarahruthfinkel-desktop.png"></div>
 		</main>
 	</body>
 </html>
