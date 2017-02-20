@@ -41,10 +41,7 @@
 	<body>
 		<header>
 			<div class="jumbotron" align="center">
-				<h1>VIDEO PLACEHOLDER</h1>
-				<!--<video>
-					<source src="https://www.youtube.com/embed/M9-hAJ8IrmU"> autoplay="true" muted />
-				</video> -->
+				<video src="video/sample-video.mp4" loop autoplay muted preload="none" style="display:block"</video>
 			</div>
 			<div class="container">
 				<div class="row">
