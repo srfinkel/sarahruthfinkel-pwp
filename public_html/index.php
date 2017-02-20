@@ -41,8 +41,7 @@
 	<body>
 		<header>
 			<div class="jumbotron" align="center">
-				<video src="video/sample-video.mp4" loop muted preload="none" autoplay="true"
-				</video>
+				<video src="video/sample-vid.webm" type="video/webm" autoplay="true" muted loop</video>
 			</div>
 			<div class="container">
 				<div class="row">
@@ -86,6 +85,16 @@
 								She is the owner of Soda Fire Media providing custom web and graphic design.
 							</p>
 					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4"><img src="port-image-sample" class="img-thumbnail"</div>
+					<div class="col-md-4"><img src="port-image-sample" class="img-thumbnail"</div>
+					<div class="col-md-4"><img src="port-image-sample" class="img-thumbnail"</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4"><img src="port-image-sample" class="img-thumbnail"</div>
+					<div class="col-md-4"><img src="port-image-sample" class="img-thumbnail"</div>
+					<div class="col-md-4"><img src="port-image-sample" class="img-thumbnail"</div>
 				</div>
 			</div>
 		</main>
