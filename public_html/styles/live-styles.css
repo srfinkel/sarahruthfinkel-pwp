@@ -2,6 +2,17 @@ body {
 	padding-bottom: 70px;
 }
 
-.col-md-3 {
-	padding-top: 10%;
+.col-md-12 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.serif {
+	font-family: Palatino serif;
+}
+
+#bio {
+	border-left-style: solid;
+	border-width: thin;
+	border-color: lightgray;
 }
