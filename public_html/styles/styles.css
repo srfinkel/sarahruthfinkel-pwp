@@ -1,23 +1,20 @@
-h1 {
-	font-family: "Helvetica Neue", sans-serif;
-	color: gray;
+.col-md-12 {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-body {
-	background-color: lightcyan;
+
+.serif {
+	font-family: Palatino serif;
 }
-.title {
-	font-family: "Helvetica Neue", sans-serif;
-	color: mediumaquamarine;
-	font-size: 30px;
+
+#bio {
+	border-left-style: solid;
+	border-width: thin;
+	border-color: lightgray;
 }
-p {
-	font-family: "Helvetica", sans-serif;
-	color: dimgrey;
-}
-.bold {
-	color: #ffa800;
-}
-.website {
-	color: mediumvioletred;
-	font-weight: bold;
+
+.img-thumbnail {
+
+	@padding-base-vertical: 12px;
+	@padding-base-horizontal: 12px;
 }

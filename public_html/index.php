@@ -19,7 +19,7 @@
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
 				rel="stylesheet"/>
 
-		<link rel="stylesheet" href="styles/live-styles.css" type="text/css"/>
+		<link rel="stylesheet" href="styles/styles.css" type="text/css"/>
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,7 +40,6 @@
 		<script src="src/js/jquery.swipebox.js"></script>
 
 		<link rel="stylesheet" href="src/css/swipebox.css">
-
 
 		<title>Sarah Ruth Finkel</title>
 	</head>
