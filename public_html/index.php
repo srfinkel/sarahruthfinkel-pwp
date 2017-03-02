@@ -19,7 +19,11 @@
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
 				rel="stylesheet"/>
 
+		<!-- Custom Stylesheet -->
 		<link rel="stylesheet" href="styles/styles.css" type="text/css"/>
+
+		<!-- Swipebox CSS -->
+		<link rel="stylesheet" href="src/css/swipebox.css">
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,10 +40,8 @@
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
-		<script src="lib/jquery-2.0.3.js"></script>
+		<script src="lib/jquery-2.1.0.min.js"></script>
 		<script src="src/js/jquery.swipebox.js"></script>
-
-		<link rel="stylesheet" href="src/css/swipebox.css">
 
 		<title>Sarah Ruth Finkel</title>
 	</head>
@@ -49,8 +51,7 @@
 				<div class="row">
 					<div class="embed-responsive embed-responsive-16by9">
 						<!-- Add media queries to both medium and 992px width -->
-						<video src="video/sample-vid.webm" type="video/webm" autoplay muted loop
-						</video>
+						<video src="video/sample-vid.webm" type="video/webm" autoplay muted loop</video>
 					</div>
 				</div>
 			</div>
