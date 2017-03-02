@@ -118,7 +118,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div><a href="big/"</div>
+					<div><a href="port-lg-eib1.jpg" class="swipebox" title = "Managed Squarespace Site for Eileen & the In-Betweens"</div>
 					<div class="col-md-4"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>
 					<div class="col-md-4"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>
 					<div class="col-md-4"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>
