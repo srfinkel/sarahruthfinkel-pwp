@@ -4,10 +4,10 @@
 
 } )( jQuery );
 
-// $( '#gallery' ).click( function( e ) {
-// 	e.preventDefault();
-// 	$.swipebox( [
-// 		{ href:'port-lg-eib1', title:'My Caption' },
-// 		{ href:'port-lg-eib1', title:'My Second Caption' }
-// 	] );
-// } );
+$( '#gallery' ).click( function( e ) {
+	e.preventDefault();
+	$.swipebox( [
+		{ href:'port-lg-eib1.jpg', title:'Eileen & the In-Betweens (Squarespace)' },
+		{ href:'port-lg-eib1.jpg', title:'My Second Caption' }
+	] );
+} );

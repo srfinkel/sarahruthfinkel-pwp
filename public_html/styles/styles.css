@@ -1,10 +1,22 @@
-.serif {
-	font-family: 'Crimson Text', serif;
-	font-size: larger;
+h1 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+	font-family: 'Open Sans', serif;
+}
+
+.embed-responsive embed-responsive-16by9 {
+	@media:
+	
+}
+.quote {
+	font-family: 'Roboto Slab', serif;
 	color: grey;
 }
 
 #bio {
+	font-family: 'Open Sans', sans-serif;
 	border-left-style: solid;
 	border-width: thin;
 	border-color: lightgray;
@@ -14,7 +26,6 @@
 	padding-top: 30px;
 }
 
-.swipebox {
-	padding: 15px;
-	overflow: hidden;
+.thumbnail {
+	max-width: 100%;
 }
