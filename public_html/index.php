@@ -51,7 +51,8 @@
 				<div class="row">
 					<div class="embed-responsive embed-responsive-16by9">
 						<!-- Add media queries to both medium and 992px width -->
-						<video src="video/sample-vid.webm" type="video/webm" autoplay muted loop</video>
+						<video src="video/sample-vid.webm" type="video/webm" autoplay muted loop
+						</video>
 					</div>
 				</div>
 			</div>
@@ -94,11 +95,16 @@
 					</div>
 					<div class="col-md-3">
 						<p class="serif">
-							<em>"There is a vitality, a life force, an energy, a quickening that is translated through you into
-								action, and because there is only one of you in all of time, this expression is unique. And if
-								you block it, it will never exist through any other medium and it will be lost. The world will
-								not have it." </em><br>–Martha Graham, dancer and choreographer
+							<aside>
+								<em>"There is a vitality, a life force, an energy, a quickening that is translated through you
+									into
+									action, and because there is only one of you in all of time, this expression is unique. And
+									if
+									you block it, it will never exist through any other medium and it will be lost. The world
+									will
+									not have it." </em><br>–Martha Graham, dancer and choreographer
 						</p>
+						</aside>
 					</div>
 					<div class="col-md-9" id="bio">
 						<p>Originally from Chicago, Sarah Ruth has been a professional graphic designer for 16 years. Her
@@ -118,18 +124,26 @@
 						</p>
 					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="row">
-					<div><a href="port-lg-eib1.jpg" class="swipebox" title = "Managed Squarespace Site for Eileen & the In-Betweens"</div>
-					<div class="col-md-4"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>
-					<div class="col-md-4"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>
-					<div class="col-md-4"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>
-				</div>
-				<div class="row">
-					<div class="col-md-4"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>
-					<div class="col-md-4"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>
-					<div class="col-md-4"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>
+					<div class="col-smcol-md-3 col-md-offset-3"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" alt="image"></a>
+					</div>
+					<div class="col-smcol-md-3"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" alt="image"></a>
+					</div>
+					<div class="col-smcol-md-3"><a href="images/port-lg-eib1.jpg" class="swipebox"
+															 title="Managed Squarespace Site for Eileen & the In-Betweens"><img
+								src="images/port-sm-eib1.jpg" alt="image"></a>
+					</div>
 				</div>
 			</div>
+			<!--			<div class="row">-->
+			<!--				<div class="col-md-3">-->
+			<!--					<div class="col-md-3"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>-->
+			<!--					<div class="col-md-3"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>-->
+			<!--					<div class="col-md-3"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>-->
+			<!--				</div>-->
+			<!--			</div>-->
 		</main>
 	</body>
 
