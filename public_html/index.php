@@ -41,8 +41,12 @@
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
+		<!-- Swipebox custom jQuery-->
 		<script src="lib/jquery-2.1.0.min.js"></script>
 		<script src="src/js/jquery.swipebox.js"></script>
+
+		<!-- Navigation custom js-->
+		<script rel="text/scripts" href="script.js"></script>
 
 		<title>Sarah Ruth Finkel</title>
 	</head>
@@ -88,8 +92,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
-						<h1>Sarah Ruth Finkel</h1><br>
-						<h3>web development & media arts</h3>
+						<h1>Sarah Ruth Finkel</h1><h3>web development & media arts</h3>
 					</div>
 				</div>
 				<div class="row">
