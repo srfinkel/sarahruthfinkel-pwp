@@ -1,10 +1,7 @@
-.col-md-12 {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
 .serif {
-	font-family: Palatino serif;
+	font-family: 'Crimson Text', serif;
+	font-size: larger;
+	color: grey;
 }
 
 #bio {
@@ -13,8 +10,11 @@
 	border-color: lightgray;
 }
 
-.img-thumbnail {
+#gallery {
+	padding-top: 30px;
+}
 
-	@padding-base-vertical: 12px;
-	@padding-base-horizontal: 12px;
+.swipebox {
+	padding: 15px;
+	overflow: hidden;
 }

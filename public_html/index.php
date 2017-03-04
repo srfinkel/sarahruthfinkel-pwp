@@ -21,6 +21,7 @@
 
 		<!-- Custom Stylesheet -->
 		<link rel="stylesheet" href="styles/styles.css" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i" rel="stylesheet">
 
 		<!-- Swipebox CSS -->
 		<link rel="stylesheet" href="src/css/swipebox.css">
@@ -90,60 +91,55 @@
 		<main>
 			<div class="container">
 				<div class="row">
-					<div class="row">
-						<div class="col-md-12"></div>
-					</div>
-					<div class="col-md-3">
+					<div class="col-xs-12 col-md-3">
 						<p class="serif">
-							<aside>
-								<em>"There is a vitality, a life force, an energy, a quickening that is translated through you
-									into
-									action, and because there is only one of you in all of time, this expression is unique. And
-									if
-									you block it, it will never exist through any other medium and it will be lost. The world
-									will
-									not have it." </em><br>–Martha Graham, dancer and choreographer
-						</p>
-						</aside>
+							<em>"There is a vitality, a life force, an energy, a quickening that is translated through you
+								into action, and because there is only one of you in all of time, this expression is unique. And
+								if you block it, it will never exist through any other medium and it will be lost. The world
+								will not have it." </em><br>–Martha Graham, dancer and choreographer</p>
 					</div>
-					<div class="col-md-9" id="bio">
+					<div class="col-xs-12 col-md-9" id="bio">
 						<p>Originally from Chicago, Sarah Ruth has been a professional graphic designer for 16 years. Her
-							clients have included the ABQ BioPark, La Casa Norte, Chicago Reporter, Alien Arts Recording
-							Studio and The Black Star Project. As an environmental justice activist, Sarah Ruth wrote a
-							column, Metropolimón, for Extra Bilingual Newspaper discussing environmental concerns in
-							Chicago’s latino neighborhoods. As an educator, she has partnered with community organizations,
-							such as PERRO (Pilsen Environmental Rights and Reform Organization) and Elevarte, teaching
-							skills in mud stenciling, seed saving and art in activism. In 2011, Sarah Ruth co-curated the
-							exhibition <em>Everyone Matters</em>, at the National Museum of Puerto Rican Arts and Culture
-							that told stories of resilience and positive life choices by Humboldt Park neighborhood
-							residents. In 2014, Sarah Ruth performed with Circa PINTIG in their production of <em>Scent of
-								Home: Short Stories by Bienvenido Santos</em> and was a bilingual song leader in the
-							Opera-Matic community performance Moon on the Lagoon. Sarah Ruth continues her studio art
-							practice in ceramics, is an avid community gardener, and holds a BFA from Syracuse University.
-							She is the owner of Soda Fire Media providing custom web and graphic design.
-						</p>
+							clients have included the ABQ BioPark, La Casa Norte, Chicago Reporter, Alien Arts Recording Studio
+							and The Black Star Project. As an environmental justice activist, Sarah Ruth wrote a column,
+							Metropolimón, for Extra Bilingual Newspaper discussing environmental concerns in Chicago’s latino
+							neighborhoods. As an educator, she has partnered with community organizations, such as PERRO
+							(Pilsen Environmental Rights and Reform Organization) and Elevarte, teaching skills in mud
+							stenciling, seed saving and art in activism. In 2011, Sarah Ruth co-curated the exhibition <em>Everyone
+								Matters</em>, at the National Museum of Puerto Rican Arts and Culture that told stories of
+							resilience and positive life choices by Humboldt Park neighborhood residents. In 2014, Sarah Ruth
+							performed with Circa PINTIG in their production of <em>Scent of Home: Short Stories by Bienvenido
+								Santos</em> and was a bilingual song leader in the Opera-Matic community performance Moon on the
+							Lagoon. Sarah Ruth continues her studio art practice in ceramics, is an avid community gardener,
+							and holds a BFA from Syracuse University. She is the owner of Soda Fire Media providing custom web
+							and graphic design.</p>
 					</div>
 				</div>
 			</div>
-			<div class="container">
+			<div class="container" id="gallery">
 				<div class="row">
-					<div class="col-smcol-md-3 col-md-offset-3"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" alt="image"></a>
-					</div>
-					<div class="col-smcol-md-3"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" alt="image"></a>
-					</div>
-					<div class="col-smcol-md-3"><a href="images/port-lg-eib1.jpg" class="swipebox"
-															 title="Managed Squarespace Site for Eileen & the In-Betweens"><img
-								src="images/port-sm-eib1.jpg" alt="image"></a>
+					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
+						<div class="row">
+							<div class="clearfix visible-xs-block">
+								<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" alt="portfolio-image"></a>
+								</div>
+								<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" alt="portfolio-image"></a>
+								</div>
+								<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" alt="portfolio-image"></a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" alt="portfolio-image"></a>
+								</div>
+								<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" alt="portfolio-image"></a>
+								</div>
+								<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" alt="portfolio-image"></a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!--			<div class="row">-->
-			<!--				<div class="col-md-3">-->
-			<!--					<div class="col-md-3"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>-->
-			<!--					<div class="col-md-3"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>-->
-			<!--					<div class="col-md-3"><img src="images/port-image-sample.jpg" class="img-thumbnail"/></div>-->
-			<!--				</div>-->
-			<!--			</div>-->
 		</main>
 	</body>
 
