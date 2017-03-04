@@ -1,10 +1,21 @@
+#nav {
+	fill-opacity: 0.6;
+}
+
+
 h1 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-h3 {
+h3, nav {
 	font-family: 'Open Sans', serif;
 	color: grey;
+}
+
+video {
+	position: fixed;
+	top:0;
+	left:0;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -14,9 +25,11 @@ h3 {
 	}
 }
 
-video {
-	min-height: 786px;
-	max-height: 991px;
+@media (min-width: 768px) and (max-width: 991px) {
+	video {
+		min-height: 100%;
+		max-height: 100%;
+	}
 }
 
 .quote {
@@ -39,6 +52,10 @@ video {
 	max-width: 100%;
 }
 
+.fa {
+	color: grey;
+}
+
 body {
-	padding-bottom: 70px;
+	padding-bottom: 90px;
 }
