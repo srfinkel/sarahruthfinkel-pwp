@@ -22,8 +22,8 @@
 		<link rel="stylesheet" href="styles/styles.css" type="text/css"/>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto+Slab:100" rel="stylesheet">
 
-		<!-- Swipebox CSS -->
-		<link rel="stylesheet" href="src/css/swipebox.css">
+		<!-- Fancybox CSS -->
+		<link rel="stylesheet" type="text/css" href="jquery.fancybox.css">
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
