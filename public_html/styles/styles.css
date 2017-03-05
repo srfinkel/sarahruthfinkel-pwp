@@ -12,10 +12,11 @@ h3, nav {
 	color: grey;
 }
 
-video {
+#name {
 	position: fixed;
 	top:0;
 	left:0;
+	height: 80%;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {

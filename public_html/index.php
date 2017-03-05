@@ -16,8 +16,6 @@
 				crossorigin="anonymous"/>
 
 		<!-- Font Awesome -->
-<!--		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"-->
-<!--				rel="stylesheet"/>-->
 		<script src="https://use.fontawesome.com/b90f91aa23.js"></script>
 
 		<!-- Custom Stylesheet -->
