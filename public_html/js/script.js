@@ -1,4 +1,5 @@
 /**Creates a navbar-fixed-top after a certain height of scrolling**/
+
 $(document).ready(function() {
 
 	$(window).scroll(function() {
