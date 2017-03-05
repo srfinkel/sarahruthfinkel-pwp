@@ -1,21 +1,3 @@
 .DS_Store
 /.idea
 /vendor
-
-# Ignore dist
-dist/
-stage/
-
-# Ignore demo scss
-demo/scss/
-
-# Ignore grunt stuff
-**/.sass-cache
-**/.grunt
-**/node_modules
-
-# Windows image file caches
-Thumbs.db
-
-# Folder config file
-Desktop.ini
