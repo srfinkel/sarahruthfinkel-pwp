@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link href="../styles/demo-styles.css" rel="stylesheet" type="text/css" />
+		<link href="../css/demo-styles.css" rel="stylesheet" type="text/css" />
 		<title>
 			Sarah Ruth Finkel
 		</title>

@@ -12,11 +12,11 @@ h3, nav {
 	color: grey;
 }
 
-#name {
+.topImg {
 	position: fixed;
 	top:0;
 	left:0;
-	height: 80%;
+	height:90%;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {

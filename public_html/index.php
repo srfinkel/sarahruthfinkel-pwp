@@ -19,11 +19,11 @@
 		<script src="https://use.fontawesome.com/b90f91aa23.js"></script>
 
 		<!-- Custom Stylesheet -->
-		<link rel="stylesheet" href="styles/styles.css" type="text/css"/>
+		<link rel="stylesheet" href="css/styles.css" type="text/css"/>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto+Slab:100" rel="stylesheet">
 
-		<!-- Fancybox CSS -->
-		<link rel="stylesheet" type="text/css" href="fancybox-3.0/dist/jquery.fancybox.css">
+		<!-- FancyBox 3 CSS  -->
+		<link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css">
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,16 +32,16 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- jQuery - required for Bootstrap Components -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
-		<!-- Fancybox JS -->
-		<script src="fancybox-3.0/dist/jquery.fancybox.js"></script>
+		<!--jQuery FancyBox 3 -->
+		<script src="js/jquery.fancybox.min.js" type="text/javascript"></script>
 
 		<!-- Navigation custom js-->
 		<script src="js/script.js"></script>
@@ -50,14 +50,15 @@
 	</head>
 	<body>
 		<header>
-			<div class="container-fluid topImg">
+			<div class="container-fluid topVid">
 				<div class="row">
 					<div class="embed-responsive embed-responsive-16by9">
 						<!-- Add media queries to both medium and 992px width -->
 						<video src="video/sample-vid.webm" type="video/webm" autoplay muted loop
 						</video>
 					</div>
-					<!-- put a fixed height on the video for mobile screen, split the difference at the md inside a media query put another fixed height one nav bar but just flip out the class. custom js file but in jQuery syntax. -->
+				</div>
+			</div>
 					<nav class="navbar navbar-default">
 						<div class="container-fluid">
 							<!-- Brand and toggle get grouped for better mobile display -->
@@ -141,7 +142,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
 						<div class="row">
-							<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" class="thumbnail" alt="portfolio-image"></a>
+							<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" data-fancybox="images" data-caption="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" class="thumbnail" alt="portfolio-image"></a>
 							</div>
 							<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" class="thumbnail" alt="portfolio-image"></a>
 							</div>
