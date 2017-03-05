@@ -23,7 +23,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto+Slab:100" rel="stylesheet">
 
 		<!-- Fancybox CSS -->
-		<link rel="stylesheet" type="text/css" href="jquery.fancybox.css">
+		<link rel="stylesheet" type="text/css" href="fancybox-3.0/dist/jquery.fancybox.css">
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,16 +33,16 @@
 		<![endif]-->
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
-<!--		<!-- Swipebox custom jQuery-->
-<!--		<script src="lib/jquery-2.1.0.min.js"></script>-->
-<!--		<script src="src/js/jquery.swipebox.js"></script>-->
+		<!-- Fancybox JS -->
+<!--		<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>-->
+		<script src="fancybox-3.0/dist/jquery.fancybox.min.js"></script>
 
 		<!-- Navigation custom js-->
 		<script src="js/script.js"></script>
