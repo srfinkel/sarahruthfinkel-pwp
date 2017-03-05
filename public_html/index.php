@@ -41,8 +41,7 @@
 				  crossorigin="anonymous"></script>
 
 		<!-- Fancybox JS -->
-<!--		<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>-->
-		<script src="fancybox-3.0/dist/jquery.fancybox.min.js"></script>
+		<script src="fancybox-3.0/dist/jquery.fancybox.js"></script>
 
 		<!-- Navigation custom js-->
 		<script src="js/script.js"></script>
