@@ -42,10 +42,9 @@
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
-<!--		<!-- Swipebox custom jQuery-->-->
+<!--		<!-- Swipebox custom jQuery-->
 <!--		<script src="lib/jquery-2.1.0.min.js"></script>-->
-		<script src="src/js/jquery.swipebox.js"></script>
-		<script src="src/js/script.js"></script>
+<!--		<script src="src/js/jquery.swipebox.js"></script>-->
 
 		<!-- Navigation custom js-->
 		<script src="js/script.js"></script>
@@ -54,7 +53,7 @@
 	</head>
 	<body>
 		<header>
-			<div class="container-fluid" >
+			<div class="container-fluid topImg">
 				<div class="row">
 					<div class="embed-responsive embed-responsive-16by9">
 						<!-- Add media queries to both medium and 992px width -->
@@ -62,7 +61,7 @@
 						</video>
 					</div>
 					<!-- put a fixed height on the video for mobile screen, split the difference at the md inside a media query put another fixed height one nav bar but just flip out the class. custom js file but in jQuery syntax. -->
-					<nav class="navbar navbar-default navbar-fixed-top">
+					<nav class="navbar navbar-default">
 						<div class="container-fluid">
 							<!-- Brand and toggle get grouped for better mobile display -->
 							<div class="navbar-header">
@@ -102,7 +101,7 @@
 									<button type="submit" class="btn btn-default">Email Me</button>
 								</form>
 								<ul class="nav navbar-nav navbar-right">
-									<li><a href="https://twitter.com/sarahruthfinkel"><i class="fa fa-twitter fa-lg" aria-hidden="true" target="_window"></i></a></li>
+									<li><a href="https://twitter.com/sarahruthfinkel"><i class="fa fa-twitter fa-lg" aria-hidden="true" target="_blank"></i></a></li>
 <!--									<li class="dropdown">-->
 <!--										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"-->
 <!--											aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
