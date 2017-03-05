@@ -140,26 +140,20 @@
 			</div>
 			<div class="container" id="gallery">
 				<div class="row">
-					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
-						<div class="row">
-							<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" data-fancybox="images" data-caption="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" class="thumbnail" alt="portfolio-image"></a>
-							</div>
-							<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" class="thumbnail" alt="portfolio-image"></a>
-							</div>
-							<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" class="thumbnail" alt="portfolio-image"></a>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" class="thumbnail" alt="portfolio-image"></a>
-							</div>
-							<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" class="thumbnail" alt="portfolio-image"></a>
-							</div>
-							<div class="col-xs-4 col-xs-offset-0 col-md-4"><a href="images/port-lg-eib1.jpg" class="swipebox" title="Managed Squarespace Site for Eileen & the In-Betweens"><img src="images/port-sm-eib1.jpg" class="thumbnail" alt="portfolio-image"></a>
-							</div>
-						</div>
+					<div class="col-xs-4 col-md-3 col-md-offset-3"><a href="images/eileen-and-the-inbetweens.jpg" id="eib" class="thumbnail" data-fancybox="gallery" data-caption="Eileen & the In-Betweens (Squarespace, Bandcamp, Adobe Creative Suite, photography)"><img src="images/eileen-and-the-inbetweens.jpg" alt="eileen-and-the-in-betweens" class="image-responsive"></a>
+					</div>
+					<div class="col-xs-4 col-md-3"><a href="images/cca.jpg" id="cca" class="thumbnail" data-fancybox="gallery" data-caption="Center for Contemporary Arts Santa Fe (Adobe Creative Suite, Social Media)"><img src="images/cca.jpg" alt="cca" class="image-responsive"></a>
+					</div>
+					<div class="col-xs-4 col-md-3"><a href="images/cca-site.png" id="biopark" class="thumbnail" data-fancybox="gallery" data-caption="Center for Contemporary Arts Santa Fe (Joomla, eTapestry, Robly, Adobe Creative Suite)"><img src="images/cca-site.png" alt="cca-site" class="image-responsive"></a>
 					</div>
 				</div>
-			</div>
+				<div class="row">
+					<div class="col-xs-4 col-md-3 col-md-offset-3"><a href="images/ecotapatio.png" id="eco" class="thumbnail" data-fancybox="gallery" data-caption="Ecotapatío (WordPress, Adobe Creative Suite)"><img src="images/ecotapatio.png" alt="ecotapatio" class="image-responsive"></a>
+					</div>
+					<div class="col-xs-4 col-md-3"><a href="images/los-jardines-institute.png" id="lji" class="thumbnail" data-fancybox="gallery" data-caption="Los Jardines Instute (WiX)"><img src="images/los-jardines-institute.png" alt="los-jardines-institute" class="image-responsive"></a>
+					</div>
+					<div class="col-xs-4 col-md-3"><a href="images/abq-biopark.jpg" id="biopark" class="thumbnail" data-fancybox="gallery" data-caption="ABQ BioPark (Adobe Creative Suite, illustration)"><img src="images/abq-biopark.jpg" alt="abq-biopark" class="image-responsive"></a>
+					</div>
 		</main>
 	</body>
 </html>

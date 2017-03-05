@@ -16,7 +16,7 @@ h3, nav {
 	position: fixed;
 	top:0;
 	left:0;
-	height:90%;
+	height:500px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -58,5 +58,5 @@ h3, nav {
 }
 
 body {
-	padding-bottom: 90px;
+	padding-bottom: 70px;
 }

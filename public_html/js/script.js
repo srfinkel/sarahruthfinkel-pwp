@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
 	$(window).scroll(function() {
-		if($(this).scrollTop() > 665) {
+		if($(this).scrollTop() > 500) {
 			$('.navbar-default').addClass('navbar-fixed-top').fadeIn();
 		} else {
 			$('.navbar-default').removeClass('navbar-fixed-top');
