@@ -1,4 +1,4 @@
-#nav {
+.nav {
 	fill-opacity: 0.6;
 }
 
@@ -12,11 +12,10 @@ h3, nav {
 	color: grey;
 }
 
-.topImg {
+video {
 	position: fixed;
 	top:0;
 	left:0;
-	height:500px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -33,7 +32,7 @@ h3, nav {
 	}
 }
 
-.quote {
+#quote {
 	font-family: 'Roboto Slab', serif;
 	color: grey;
 }

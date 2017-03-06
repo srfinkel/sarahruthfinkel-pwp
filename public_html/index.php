@@ -48,9 +48,9 @@
 
 		<title>Sarah Ruth Finkel</title>
 	</head>
-	<body>
+	<body id="top">
 		<header>
-			<div class="container-fluid topVid">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="embed-responsive embed-responsive-16by9">
 						<!-- Add media queries to both medium and 992px width -->
@@ -59,7 +59,7 @@
 					</div>
 				</div>
 			</div>
-					<nav class="navbar navbar-default">
+					<nav class="navbar navbar-default" role="navigation">
 						<div class="container-fluid">
 							<!-- Brand and toggle get grouped for better mobile display -->
 							<div class="navbar-header">
@@ -70,27 +70,11 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-<!--								<a class="navbar-brand" href="#bio">SARU</a>-->
-<!--							</div>-->
-
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
-									<li><a href="#name"><button type="button" class="btn btn-link">About</button></a></li>
+									<li><a href="#about"><button type="button" class="btn btn-link">About</button></a></li>
 									<li><a href="#gallery"><button type="button" class="btn btn-link">Portfolio</button></a></li>
-<!--									<li class="dropdown">-->
-<!--										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"-->
-<!--											aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
-<!--										<ul class="dropdown-menu">-->
-<!--											<li><a href="#">Action</a></li>-->
-<!--											<li><a href="#">Another action</a></li>-->
-<!--											<li><a href="#">Something else here</a></li>-->
-<!--											<li role="separator" class="divider"></li>-->
-<!--											<li><a href="#">Separated link</a></li>-->
-<!--											<li role="separator" class="divider"></li>-->
-<!--											<li><a href="#">One more separated link</a></li>-->
-<!--										</ul>-->
-<!--									</li>-->
 								</ul>
 								<form class="navbar-form navbar-left">
 									<div class="form-group">
@@ -99,30 +83,16 @@
 									<button type="submit" class="btn btn-default">Email Me</button>
 								</form>
 								<ul class="nav navbar-nav navbar-right">
-									<li><a href="https://twitter.com/sarahruthfinkel"><i class="fa fa-twitter fa-lg" aria-hidden="true" target="_blank"></i></a></li>
-<!--									<li class="dropdown">-->
-<!--										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"-->
-<!--											aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
-<!--										<ul class="dropdown-menu">-->
-<!--											<li><a href="#">Action</a></li>-->
-<!--											<li><a href="#">Another action</a></li>-->
-<!--											<li><a href="#">Something else here</a></li>-->
-<!--											<li role="separator" class="divider"></li>-->
-<!--											<li><a href="#">Separated link</a></li>-->
-<!--										</ul>-->
-<!--									</li>-->
+									<li><a href="https://twitter.com/sarahruthfinkel" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/srfinkel" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+									<li><a href="https://github.com/srfinkel" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
 								</ul>
-<!--								<nav class="navbar navbar-default navbar-fixed-bottom">-->
-<!--									<div class="container-fluid">-->
-<!--										<a href="https://twitter.com/sarahruthfinkel"><i class="fa fa-twitter fa-lg" aria-hidden="true" target="_blank"></i></a>-->
-<!--									</div>-->
-<!--								</nav>-->
 							</div><!-- /.navbar-collapse -->
 						</div><!-- /.container-fluid -->
 					</nav>
 		</header>
-		<main>
-			<div class="container" id="name">
+		<main  id="about">
+			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
 						<h1>Sarah Ruth Finkel</h1><h3>web development & media arts</h3>
@@ -130,7 +100,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-md-3">
-						<p class="quote">
+						<p id="quote">
 							<em>"There is a vitality, a life force, an energy, a quickening that is translated through you into action, and because there is only one of you in all of time, this expression is unique. And if you block it, it will never exist through any other medium and it will be lost. The world will not have it." </em><br>–Martha Graham, dancer and choreographer</p>
 					</div>
 					<div class="col-xs-12 col-md-9" id="bio">
@@ -154,6 +124,15 @@
 					</div>
 					<div class="col-xs-4 col-md-3"><a href="images/abq-biopark.jpg" id="biopark" class="thumbnail" data-fancybox="gallery" data-caption="ABQ BioPark (Adobe Creative Suite, illustration)"><img src="images/abq-biopark.jpg" alt="abq-biopark" class="image-responsive"></a>
 					</div>
+			<footer>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-1 col-md-offset-11">
+							<a href="#topVid" <button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i></button></a>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</main>
 	</body>
 </html>
