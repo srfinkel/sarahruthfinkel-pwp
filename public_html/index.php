@@ -59,37 +59,45 @@
 					</div>
 				</div>
 			</div>
-					<nav class="navbar navbar-default" role="navigation">
-						<div class="container-fluid">
-							<!-- Brand and toggle get grouped for better mobile display -->
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-										  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							<!-- Collect the nav links, forms, and other content for toggling -->
-							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-								<ul class="nav navbar-nav">
-									<li><a href="#about"><button type="button" class="btn btn-link">About</button></a></li>
-									<li><a href="#gallery"><button type="button" class="btn btn-link">Portfolio</button></a></li>
-								</ul>
-								<form class="navbar-form navbar-left">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Send Me Your Email">
-									</div>
-									<button type="submit" class="btn btn-default">Email Me</button>
-								</form>
-								<ul class="nav navbar-nav navbar-right">
-									<li><a href="https://twitter.com/sarahruthfinkel" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/srfinkel" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-									<li><a href="https://github.com/srfinkel" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-								</ul>
-							</div><!-- /.navbar-collapse -->
-						</div><!-- /.container-fluid -->
-					</nav>
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li><a href="#about">
+										<button type="button" class="btn btn-link">About</button>
+									</a></li>
+								<li><a href="#gallery">
+										<button type="button" class="btn btn-link">Portfolio</button>
+									</a></li>
+							</ul>
+							<!--	Submit email form						-->
+							<form class="navbar-form navbar-left">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Send Me Your Email">
+								</div>
+								<button type="submit" class="btn btn-default">Email Me</button>
+							</form>
+							<!--	social media links					-->
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="https://twitter.com/sarahruthfinkel" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+								</li>
+								<li><a href="https://www.linkedin.com/in/srfinkel" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+								<li><a href="https://github.com/srfinkel" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
 		</header>
 		<main  id="about">
 			<div class="container">
@@ -103,8 +111,8 @@
 						<p id="quote">
 							<em>"There is a vitality, a life force, an energy, a quickening that is translated through you into action, and because there is only one of you in all of time, this expression is unique. And if you block it, it will never exist through any other medium and it will be lost. The world will not have it." </em><br>–Martha Graham, dancer and choreographer</p>
 					</div>
-					<div class="col-xs-12 col-md-9" id="bio">
-						<p>Originally from Chicago, Sarah Ruth has been a professional graphic designer for 16 years. Her clients have included the ABQ BioPark, La Casa Norte, Chicago Reporter, Alien Arts Recording Studio and The Black Star Project. As an environmental justice activist, Sarah Ruth wrote a column, Metropolimón, for Extra Bilingual Newspaper discussing environmental concerns in Chicago’s latino neighborhoods. As an educator, she has partnered with community organizations, such as PERRO (Pilsen Environmental Rights and Reform Organization) and Elevarte, teaching skills in mud stenciling, seed saving and art in activism. In 2011, Sarah Ruth co-curated the exhibition <em>Everyone Matters</em>, at the National Museum of Puerto Rican Arts and Culture that told stories of resilience and positive life choices by Humboldt Park neighborhood residents. In 2014, Sarah Ruth performed with Circa PINTIG in their production of <em>Scent of Home: Short Stories by Bienvenido Santos</em> and was a bilingual song leader in the Opera-Matic community performance Moon on the Lagoon. Sarah Ruth continues her studio art practice in ceramics, is an avid community gardener, and holds a BFA from Syracuse University. Sarah Ruth runs Soda Fire Media, a business specializing in custom artwork in digital and ceramic media.</p>
+					<div class="col-xs-12 col-md-9">
+						<p id="bio">Originally from Chicago, Sarah Ruth has been a professional graphic designer for 16 years. Her clients have included the ABQ BioPark, La Casa Norte, Chicago Reporter, Alien Arts Recording Studio and The Black Star Project. As an environmental justice activist, Sarah Ruth wrote a column, Metropolimón, for Extra Bilingual Newspaper discussing environmental concerns in Chicago’s latino neighborhoods. As an educator, she has partnered with community organizations, such as PERRO (Pilsen Environmental Rights and Reform Organization) and Elevarte, teaching skills in mud stenciling, seed saving and art in activism. In 2011, Sarah Ruth co-curated the exhibition <em>Everyone Matters</em>, at the National Museum of Puerto Rican Arts and Culture that told stories of resilience and positive life choices by Humboldt Park neighborhood residents. In 2014, Sarah Ruth performed with Circa PINTIG in their production of <em>Scent of Home: Short Stories by Bienvenido Santos</em> and was a bilingual song leader in the Opera-Matic community performance Moon on the Lagoon. Sarah Ruth continues her studio art practice in ceramics, is an avid community gardener, and holds a BFA from Syracuse University. Sarah Ruth runs Soda Fire Media, a business specializing in custom artwork in digital and ceramic media.</p>
 					</div>
 				</div>
 			</div>
