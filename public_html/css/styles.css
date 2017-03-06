@@ -1,15 +1,18 @@
-.nav {
+nav {
 	fill-opacity: 0.6;
+	font-family: 'Open Sans', serif;
+	color: grey;
 }
-
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
+	padding: 15px;
 }
 
-h3, nav {
+h2 {
 	font-family: 'Open Sans', serif;
 	color: grey;
+	padding: 15px;
 }
 
 video {
@@ -39,12 +42,13 @@ video {
 
 #bio {
 	font-family: 'Open Sans', sans-serif;
+	padding: 15px;
 	border-left-style: solid;
 	border-width: thin;
 	border-color: lightgray;
 }
 
-#gallery {
+#portfolio {
 	padding-top: 30px;
 }
 

@@ -77,7 +77,7 @@
 								<li><a href="#about">
 										<button type="button" class="btn btn-link">About</button>
 									</a></li>
-								<li><a href="#gallery">
+								<li><a href="#portfolio">
 										<button type="button" class="btn btn-link">Portfolio</button>
 									</a></li>
 							</ul>
@@ -99,11 +99,14 @@
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
-		<main  id="about">
-			<div class="container">
+		<main>
+			<div class="container" id="about">
 				<div class="row">
 					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
-						<h1>Sarah Ruth Finkel</h1><h3>web development & media arts</h3>
+						<h1>Sarah Ruth Finkel</h1>
+					</div>
+					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
+						<h2>web development & multi-media arts</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -116,7 +119,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="container" id="gallery">
+			<div class="container" id="portfolio">
+				<div class="row">
+					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
+						<h1>Portfolio</h1>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-xs-4 col-md-3 col-md-offset-3"><a href="images/eileen-and-the-inbetweens.jpg" id="eib" class="thumbnail" data-fancybox="gallery" data-caption="Eileen & the In-Betweens (Squarespace, Bandcamp, Adobe Creative Suite, photography)"><img src="images/eileen-and-the-inbetweens.jpg" alt="eileen-and-the-in-betweens" class="image-responsive"></a>
 					</div>
@@ -132,14 +140,18 @@
 					</div>
 					<div class="col-xs-4 col-md-3"><a href="images/abq-biopark.jpg" id="biopark" class="thumbnail" data-fancybox="gallery" data-caption="ABQ BioPark (Adobe Creative Suite, illustration)"><img src="images/abq-biopark.jpg" alt="abq-biopark" class="image-responsive"></a>
 					</div>
+				</div>
+			</div>
 			<footer>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-1 col-md-offset-11">
-							<a href="#topVid" <button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i></button></a>
+						<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3"">
+							<a href="#top" <button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i></button></a>
+							<a href="https://twitter.com/sarahruthfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></button></a>
+							<a href="https://www.linkedin.com/in/srfinkel" target="_blank" <button type="button" class="btn btn-link"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></button></a>
+							<a href="https://github.com/srfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i></button></a>
 						</div>
 					</div>
-				</div>
 			</footer>
 		</main>
 	</body>
