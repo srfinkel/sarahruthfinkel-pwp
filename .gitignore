@@ -2,4 +2,5 @@
 /.idea
 /vendor
 
+# ignore sensitive mail configuration
 **/php/mail-config.php
