@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
 	$(window).scroll(function() {
-		if($(this).scrollTop() > 500) {
+		if($(this).scrollTop() > 1000) {
 			$('.navbar-default').addClass('navbar-fixed-top').fadeIn();
 		} else {
 			$('.navbar-default').removeClass('navbar-fixed-top');
@@ -24,7 +24,7 @@ $(document).ready(function() {
 						$('html,body').animate({
 							scrollTop: (target.offset().top - height * 0.25) // adjust this according to your content
 
-						}, 1000);
+						}, 500);
 						return false;
 					}
 				}

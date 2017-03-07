@@ -3,9 +3,8 @@ $(document).ready(function(){
 	/* begin validation*/
 	$("#contact-form").validate({
 
-		// setup handling of form errors. Once you go live, you may want to change to "false"
+		// setup handling of form errors
 		debug: true,
-		//put these classes onto the element producing the error message
 		errorClass: "alert alert-danger",
 		errorLabelContainer: "#output-area",
 		errorElement: "div",
