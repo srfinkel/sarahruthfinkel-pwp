@@ -89,7 +89,7 @@
 								<form class="navbar-form navbar-left">
 									<div class="form-group-sm">
 										<label class="sr-only">Email</label>
-										<input type="email" class="form-control" id="exampleInputEmail2" placeholder="enter your email">
+										<input type="email" class="form-control" id="contact-form" name="contact-form" placeholder="enter your email">
 										<button type="submit" class="btn btn-default btn-sm">submit</button>
 									</div>
 								</form>
