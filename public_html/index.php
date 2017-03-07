@@ -160,6 +160,7 @@
 							<a href="https://twitter.com/sarahruthfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></button></a>
 							<a href="https://www.linkedin.com/in/srfinkel" target="_blank" <button type="button" class="btn btn-link"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></button></a>
 							<a href="https://github.com/srfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i></button></a>
+						<div class="col-xs-12 col-xs-offset-0 col-md-1 col-md-offset-11"
 							<a href="#top" <button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i></button></a>
 						</div>
 					</div>
