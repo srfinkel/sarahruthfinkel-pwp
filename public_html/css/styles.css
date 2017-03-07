@@ -1,5 +1,4 @@
 nav {
-	fill-opacity: 0.6;
 	font-family: 'Open Sans', serif;
 	color: grey;
 }
@@ -38,6 +37,7 @@ video {
 #quote {
 	font-family: 'Roboto Slab', serif;
 	color: grey;
+	padding: 10px;
 }
 
 #bio {

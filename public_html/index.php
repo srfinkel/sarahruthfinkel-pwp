@@ -70,24 +70,27 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
+<!--						<a class="navbar-brand" href="#">Sarah Ruth Finkel</a>-->
 					</div>
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
 								<li><a href="#about">
-										<button type="button" class="btn btn-link">About</button>
+										<button type="button" class="btn btn-link btn-sm">About</button>
 									</a></li>
 								<li><a href="#portfolio">
-										<button type="button" class="btn btn-link">Portfolio</button>
+										<button type="button" class="btn btn-link btn-sm">Portfolio</button>
 									</a></li>
 							</ul>
 							<!--	Submit email form						-->
-							<form class="navbar-form navbar-left">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Send Me Your Email">
-								</div>
-								<button type="submit" class="btn btn-default">Email Me</button>
-							</form>
+								<form class="navbar-form navbar-left">
+									<div class="form-group-sm">
+										<label class="sr-only">Email</label>
+										<input type="email" class="form-control" id="exampleInputEmail2" placeholder="enter your email">
+										<button type="submit" class="btn btn-default btn-sm">submit</button>
+									</div>
+								</form>
+
 							<!--	social media links					-->
 							<ul class="nav navbar-nav navbar-right">
 								<li><a href="https://twitter.com/sarahruthfinkel" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
@@ -146,10 +149,10 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3"">
-							<a href="#top" <button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i></button></a>
 							<a href="https://twitter.com/sarahruthfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></button></a>
 							<a href="https://www.linkedin.com/in/srfinkel" target="_blank" <button type="button" class="btn btn-link"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></button></a>
 							<a href="https://github.com/srfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i></button></a>
+							<a href="#top" <button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i></button></a>
 						</div>
 					</div>
 			</footer>
