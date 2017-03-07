@@ -56,9 +56,9 @@
 
 		<title>Sarah Ruth Finkel</title>
 	</head>
-	<body id="top">
+	<body>
 		<header>
-			<div class="container-fluid">
+			<div class="container-fluid" id="page-top">
 				<div class="row">
 					<div class="embed-responsive embed-responsive-16by9">
 						<!-- Add media queries to both medium and 992px width -->
@@ -153,8 +153,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="row"></div>
-			<div class="col-xs-4 col-md-6 col-md-offset-3">
+			<div class="row">
+				<div class="col-xs-12 col-md-6 col-md-offset-3">
 
 				<!--Begin Contact Form-->
 				<form id="contact-form" action="php/mailer.php" method="post">
@@ -203,21 +203,24 @@
 				</form>
 
 				<!--empty area for form error/success output-->
-				<div class="row">
-					<div class="col-xs-12">
-						<div id="output-area"></div>
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="output-area"></div>
+						</div>
 					</div>
 				</div>
+			</div>
+
 
 			<footer>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
+						<div class="col-xs-12 col-xs-offset-0 col-md-6 col-md-offset-3">
 							<a href="https://twitter.com/sarahruthfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></button></a>
 							<a href="https://www.linkedin.com/in/srfinkel" target="_blank" <button type="button" class="btn btn-link"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></button></a>
 							<a href="https://github.com/srfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i></button></a>
 						<div class="col-xs-12 col-xs-offset-0 col-md-1 col-md-offset-11">
-							<a href="#top" class="scroll" <button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i></button></a>
+							<a href="#page-top" class="scroll" <button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i></button></a>
 						</div>
 					</div>
 			</footer>

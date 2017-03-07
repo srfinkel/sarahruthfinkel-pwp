@@ -56,6 +56,13 @@ video {
 	max-width: 100%;
 }
 
+#contact-form {
+	font-family: 'Open Sans', sans-serif;
+	padding: 15px;
+	border-left-style: solid;
+	border-width: thin;
+	border-color: lightgray;
+}
 .fa {
 	color: grey;
 }
