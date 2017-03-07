@@ -46,6 +46,9 @@
 		<!-- Navigation custom js-->
 		<script src="js/script.js"></script>
 
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/submit-validate.js"></script>
+
 		<title>Sarah Ruth Finkel</title>
 	</head>
 	<body id="top">
