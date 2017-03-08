@@ -11,12 +11,12 @@ $(document).ready(function() {
 	$(window).scroll(function() {
 
 		if($(this).scrollTop() > 50) {
-			$('.navbar').addClass('navbar-default').removeClass('navbar-transparent');
+			$('.navbar').addClass('navbar-default').removeClass('navbar-inverse');
 		}
 
 		/* when user scrolls back up, reset navbar*/
 		if($(window).scrollTop() <= 50) {
-			$('.navbar').addClass('navbar-transparent').removeClass('navbar-default');
+			$('.navbar').addClass('navbar-inverse').removeClass('navbar-default');
 		}
 
 	});
