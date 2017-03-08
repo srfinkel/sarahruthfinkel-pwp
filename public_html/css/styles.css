@@ -1,16 +1,8 @@
-nav {
-	font-family: 'Open Sans', serif;
-	color: grey;
-	position: fixed;
-	top:0;
-	left:0;
-}
-
 .navbar.navbar-fixed-top {
 	transition-property: all;
 	transition-duration: 0.5s;
 	transition-timing-function: initial;
-	transition-delay: 0.1s;
+	transition-delay: 0.5s;
 }
 
 .navbar-transparent {
@@ -26,6 +18,23 @@ nav {
 .navbar-transparent .navbar-nav>li>a:focus,
 .navbar-transparent .navbar-nav>li>a:hover {
 	color: white;
+}
+
+nav {
+	font-family: 'Open Sans', serif;
+	color: grey;
+}
+
+a, ul.nav, nav.li, a:visited {
+	color: grey !important;
+}
+
+a, ul.nav, nav.li, a:active {
+	color: white !important;
+}
+
+ul.nav, li.active, a{
+	color: white !important;
 }
 
 h1 {
@@ -83,12 +92,20 @@ video {
 
 #contact-form {
 	font-family: 'Open Sans', sans-serif;
-	padding: 15px;
-	border-width: thin;
+	padding: 20px;
 }
 
 .fa {
 	color: grey;
+}
+
+.form-group {
+	border-width: 10px;
+	border-color: grey;
+}
+
+.btn-xs {
+	margin-outside: 10px;
 }
 
 body {

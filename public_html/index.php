@@ -59,16 +59,16 @@
 		<title>Sarah Ruth Finkel</title>
 	</head>
 	<body>
-		<header>
-			<div class="container-fluid" id="page-top">
-				<div class="row">
-					<div class="embed-responsive embed-responsive-16by9">
-						<!-- Add media queries to both medium and 992px width -->
-						<video src="video/sample-vid.webm" type="video/webm" autoplay muted loop
-						</video>
-					</div>
+		<div class="container-fluid" id="page-top">
+			<div class="row">
+				<div class="embed-responsive embed-responsive-16by9">
+					<!-- Add media queries to both medium and 992px width -->
+					<video src="video/sample-vid.webm" type="video/webm" autoplay muted loop</video>
 				</div>
 			</div>
+		</div>
+		<header>
+			<div class="container-fluid">
 			<nav class="navbar navbar-fixed-top navbar-transparent" role="navigation">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -82,25 +82,25 @@
 						</button>
 						<a class="navbar-brand" href="#page-top">Sarah Ruth Finkel</a>
 					</div>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav">
-								<li><a href="#about">
-										<button type="button" class="btn btn-link btn-sm">About</button>
-									</a></li>
-								<li><a href="#portfolio">
-										<button type="button" class="btn btn-link btn-sm">Portfolio</button>
-									</a></li>
-							</ul>
-
-							<!--	social media links					-->
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="https://twitter.com/sarahruthfinkel" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-								</li>
-								<li><a href="https://www.linkedin.com/in/srfinkel" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-								<li><a href="https://github.com/srfinkel" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-							</ul>
-						</div><!-- /.navbar-collapse -->
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li><a href="#about">
+									<button type="button" class="btn btn-link btn-sm">About</button>
+								</a></li>
+							<li><a href="#portfolio">
+									<button type="button" class="btn btn-link btn-sm">Portfolio</button>
+								</a></li>
+							<li><a href="https://twitter.com/sarahruthfinkel" target="_blank"><i class="fa fa-twitter fa-lg"
+																														aria-hidden="true"></i></a>
+							</li>
+							<li><a href="https://www.linkedin.com/in/srfinkel" target="_blank"><i class="fa fa-linkedin fa-lg"
+																														 aria-hidden="true"></i></a>
+							</li>
+							<li><a href="https://github.com/srfinkel" target="_blank"><i class="fa fa-github fa-lg"
+																											 aria-hidden="true"></i></a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
@@ -111,7 +111,7 @@
 						<h1>Sarah Ruth Finkel</h1>
 					</div>
 					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
-						<h2>web development & multi-media arts</h2>
+						<h2>web developer & multi-media artist</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -120,7 +120,7 @@
 							<em>"There is a vitality, a life force, an energy, a quickening that is translated through you into action, and because there is only one of you in all of time, this expression is unique. And if you block it, it will never exist through any other medium and it will be lost. The world will not have it." </em><br>–Martha Graham, dancer and choreographer</p>
 					</div>
 					<div class="col-xs-12 col-md-9">
-						<p id="bio">Originally from Chicago, Sarah Ruth has been a professional graphic designer for 16 years. Her clients have included the ABQ BioPark, La Casa Norte, Chicago Reporter, Alien Arts Recording Studio and The Black Star Project. As an environmental justice activist, Sarah Ruth wrote a column, Metropolimón, for Extra Bilingual Newspaper discussing environmental concerns in Chicago’s latino neighborhoods. As an educator, she has partnered with community organizations, such as PERRO (Pilsen Environmental Rights and Reform Organization) and Elevarte, teaching skills in mud stenciling, seed saving and art in activism. In 2011, Sarah Ruth co-curated the exhibition <em>Everyone Matters</em>, at the National Museum of Puerto Rican Arts and Culture that told stories of resilience and positive life choices by Humboldt Park neighborhood residents. In 2014, Sarah Ruth performed with Circa PINTIG in their production of <em>Scent of Home: Short Stories by Bienvenido Santos</em> and was a bilingual song leader in the Opera-Matic community performance Moon on the Lagoon. Sarah Ruth continues her studio art practice in ceramics, is an avid community gardener, and holds a BFA from Syracuse University. Sarah Ruth runs Soda Fire Media, a business specializing in custom artwork in digital and ceramic media.</p>
+						<p id="bio">Originally from Chicago, Sarah Ruth has been a professional graphic designer for 16 years. Her clients have included the <a href="https://www.cabq.gov/culturalservices/biopark/camps-classes/teachers/outreach/biovan" target="_blank">ABQ BioPark</a>, <a href="http://www.lacasanorte.org/" target="_blank">La Casa Norte</a>, <a href="http://chicagoreporter.com/" target="_blank">Chicago Reporter</a>, Alien Arts Recording Studio and <a href="http://www.blackstarproject.org/" target="_blank">The Black Star Project</a>. As an environmental justice activist, Sarah Ruth wrote a column, Metropolimón, for <a href="http://www.extranews.net/" target="_blank">Extra Bilingual Newspaper</a> discussing environmental concerns in Chicago’s latino neighborhoods. As an educator, she has partnered with community organizations, such as <a href="http://pilsenperro.org/" target="_blank">PERRO (Pilsen Environmental Rights and Reform Organization)</a> and <a href="http://elevartestudio.org/" target="_blank">Elevarte</a>, teaching skills in mud stenciling, seed saving and art in activism. In 2011, Sarah Ruth co-curated the exhibition <em>Everyone Matters</em>, at the <a href="http://nmprac.org/" target="_blank">National Museum of Puerto Rican Arts and Culture</a> that told stories of resilience and positive life choices by Humboldt Park neighborhood residents. In 2014, Sarah Ruth performed with <a href="http://www.circapintig.com/" target="_blank">Circa PINTIG</a> in their production of <em>Scent of Home: Short Stories by Bienvenido Santos</em> and was a bilingual song leader in the <a href="http://opera-matic.org/" target="_blank">Opera-Matic</a> community performance Moon on the Lagoon. Sarah Ruth continues her studio art practice in ceramics, is an avid community gardener, and holds a BFA from Syracuse University. Sarah Ruth runs Soda Fire Media, a business specializing in custom artwork in digital and ceramic media.</p>
 					</div>
 				</div>
 			</div>
@@ -156,7 +156,7 @@
 						<label for="name">Name <span class="text-danger">*</span></label>
 						<div class="input-group">
 							<div class="input-group-addon">
-								<i class="fa fa-user" aria-hidden="true"></i>
+<!--								<i class="fa fa-user" aria-hidden="true"></i>-->
 							</div>
 							<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 						</div>
@@ -165,7 +165,7 @@
 						<label for="email">Email <span class="text-danger">*</span></label>
 						<div class="input-group">
 							<div class="input-group-addon">
-								<i class="fa fa-envelope" aria-hidden="true"></i>
+<!--								<i class="fa fa-envelope" aria-hidden="true"></i>-->
 							</div>
 							<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 						</div>
@@ -174,7 +174,7 @@
 						<label for="subject">Subject</label>
 						<div class="input-group">
 							<div class="input-group-addon">
-								<i class="fa fa-pencil" aria-hidden="true"></i>
+<!--								<i class="fa fa-pencil" aria-hidden="true"></i>-->
 							</div>
 							<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 						</div>
@@ -183,7 +183,7 @@
 						<label for="message">Message <span class="text-danger">*</span></label>
 						<div class="input-group">
 							<div class="input-group-addon">
-								<i class="fa fa-comment" aria-hidden="true"></i>
+<!--								<i class="fa fa-comment" aria-hidden="true"></i>-->
 							</div>
 							<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
 						</div>
@@ -191,9 +191,8 @@
 
 					<!-- reCAPTCHA -->
 					<div class="g-recaptcha" data-sitekey="6LdUGxgUAAAAAJgtgEm6iaXAJ7ArgRVGv0BXNC-E"></div>
-
-					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+					<button class="btn btn-default btn-xs" type="submit">Send</button>
+					<button class="btn btn-default btn-xs" type="reset">Reset</button>
 				</form>
 
 				<!--empty area for form error/success output-->
@@ -204,20 +203,29 @@
 					</div>
 				</div>
 			</div>
-
-
-			<footer>
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xs-12 col-xs-offset-0 col-md-6 col-md-offset-3">
-							<a href="https://twitter.com/sarahruthfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></button></a>
-							<a href="https://www.linkedin.com/in/srfinkel" target="_blank" <button type="button" class="btn btn-link"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></button></a>
-							<a href="https://github.com/srfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i></button></a>
-						<div class="col-xs-12 col-xs-offset-0 col-md-1 col-md-offset-11">
-							<a href="#page-top" class="scroll" <button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i></button></a>
-						</div>
-					</div>
-			</footer>
 		</main>
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3"
+					">
+					<a href="#page-top"
+					<button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-lg"
+																				 aria-hidden="true"></i></button>
+					</a>
+					<a href="https://twitter.com/sarahruthfinkel" target="_blank"
+					<button type="button" class="btn btn-link"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+					</button>
+					</a>
+					<a href="https://www.linkedin.com/in/srfinkel" target="_blank"
+					<button type="button" class="btn btn-link"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+					</button>
+					</a>
+					<a href="https://github.com/srfinkel" target="_blank"
+					<button type="button" class="btn btn-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i></button>
+					</a>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

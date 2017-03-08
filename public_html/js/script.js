@@ -7,11 +7,6 @@ $(document).ready(function() {
 	 *
 	 ********************************************/
 
-	// /* check <body> tag for the home-layout class, and add navbar-INVERSE class */
-	// if($('body').hasClass('home-layout')) {
-	//
-	// 	$('.navbar').addClass('.navbar-transparent');
-
 	/* on home page ONLY, swap out navabar classes if user scrolls down 50 px */
 	$(window).scroll(function() {
 
@@ -27,18 +22,6 @@ $(document).ready(function() {
 	});
 
 });
-
-
-// 	$(window).scroll(function() {
-// 		if($(this).scrollTop() > 1000) {
-// 			$('.navbar-default').addClass('navbar-fixed-top').fadeIn();
-// 		} else {
-// 			$('.navbar-default').removeClass('navbar-fixed-top');
-// 		}
-//
-// 	});
-//
-// });
 
 // //determines the size of the viewport
 // 		var height = $(window).height(),
