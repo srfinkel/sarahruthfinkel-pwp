@@ -69,7 +69,7 @@
 					</div>
 				</div>
 			</div>
-			<nav class="navbar navbar-default" role="navigation">
+			<nav class="navbar navbar-fixed-top navbar-transparent" role="navigation">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -80,15 +80,15 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-<!--						<a class="navbar-brand" href="#">Sarah Ruth Finkel</a>-->
+						<a class="navbar-brand" href="#page-top">Sarah Ruth Finkel</a>
 					</div>
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li><a href="#about" class="scroll">
+								<li><a href="#about">
 										<button type="button" class="btn btn-link btn-sm">About</button>
 									</a></li>
-								<li><a href="#portfolio" class="scroll">
+								<li><a href="#portfolio">
 										<button type="button" class="btn btn-link btn-sm">Portfolio</button>
 									</a></li>
 							</ul>
