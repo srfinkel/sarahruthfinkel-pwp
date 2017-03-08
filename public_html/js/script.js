@@ -22,7 +22,7 @@ $(document).ready(function() {
 					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 					if(target.length) {
 						$('html,body').animate({
-							scrollTop: (target.offset().top - height * 0.25) // adjust this according to your content
+							scrollTop: (target.offset().top) // adjust this according to your content
 
 						}, 500);
 						return false;
