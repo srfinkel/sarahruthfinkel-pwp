@@ -41,8 +41,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js" type="text/javascript"></script>
 
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
 		<!--jQuery FancyBox 3 -->
@@ -51,11 +50,11 @@
 		<!-- Navigation custom js-->
 		<script src="js/script.js"></script>
 
-		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
-
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
 
 		<title>Sarah Ruth Finkel</title>
 	</head>
@@ -93,14 +92,6 @@
 										<button type="button" class="btn btn-link btn-sm">Portfolio</button>
 									</a></li>
 							</ul>
-							<!--	Submit email form						-->
-								<form class="navbar-form navbar-left">
-									<div class="form-group-sm">
-										<label class="sr-only">Email</label>
-										<input type="email" class="form-control" id="contact-form" name="contact-form" placeholder="enter your email">
-										<button type="submit" class="btn btn-default btn-sm">submit</button>
-									</div>
-								</form>
 
 							<!--	social media links					-->
 							<ul class="nav navbar-nav navbar-right">
@@ -199,7 +190,7 @@
 					</div>
 
 					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+					<div class="g-recaptcha" data-sitekey="6LekHRgUAAAAAPliV9EAINXC1RDbeV6Ek_FGx99V"></div>
 
 					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
