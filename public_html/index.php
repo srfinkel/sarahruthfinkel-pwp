@@ -59,6 +59,7 @@
 		<title>Sarah Ruth Finkel</title>
 	</head>
 	<body>
+		<header>
 		<div class="container-fluid" id="page-top">
 			<div class="row">
 				<div class="embed-responsive embed-responsive-16by9">
@@ -67,8 +68,6 @@
 				</div>
 			</div>
 		</div>
-		<header>
-			<div class="container-fluid">
 			<nav class="navbar navbar-fixed-top navbar-transparent" role="navigation">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -147,58 +146,61 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-12 col-md-6 col-md-offset-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-6 col-md-offset-3">
 
-				<!--Begin Contact Form-->
-				<form id="contact-form" action="php/mailer.php" method="post">
-					<div class="form-group">
-						<label for="name">Name <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-addon">
-<!--								<i class="fa fa-user" aria-hidden="true"></i>-->
+						<!--Begin Contact Form-->
+						<form id="contact-form" action="php/mailer.php" method="post">
+							<div class="form-group">
+								<label for="name">Name <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<!--								<i class="fa fa-user" aria-hidden="true"></i>-->
+									</div>
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+								</div>
 							</div>
-							<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="email">Email <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-addon">
-<!--								<i class="fa fa-envelope" aria-hidden="true"></i>-->
+							<div class="form-group">
+								<label for="email">Email <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<!--								<i class="fa fa-envelope" aria-hidden="true"></i>-->
+									</div>
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+								</div>
 							</div>
-							<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="subject">Subject</label>
-						<div class="input-group">
-							<div class="input-group-addon">
-<!--								<i class="fa fa-pencil" aria-hidden="true"></i>-->
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<!--								<i class="fa fa-pencil" aria-hidden="true"></i>-->
+									</div>
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+								</div>
 							</div>
-							<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="message">Message <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-addon">
-<!--								<i class="fa fa-comment" aria-hidden="true"></i>-->
+							<div class="form-group">
+								<label for="message">Message <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<!--								<i class="fa fa-comment" aria-hidden="true"></i>-->
+									</div>
+									<textarea class="form-control" rows="5" id="message" name="message"
+												 placeholder="Message (2000 characters max)"></textarea>
+								</div>
 							</div>
-							<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
-						</div>
-					</div>
 
-					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="6LdUGxgUAAAAAJgtgEm6iaXAJ7ArgRVGv0BXNC-E"></div>
-					<button class="btn btn-default btn-xs" type="submit">Send</button>
-					<button class="btn btn-default btn-xs" type="reset">Reset</button>
-				</form>
+							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="6LdUGxgUAAAAAJgtgEm6iaXAJ7ArgRVGv0BXNC-E"></div>
+							<button class="btn btn-default btn-xs" type="submit">Send</button>
+							<button class="btn btn-default btn-xs" type="reset">Reset</button>
+						</form>
 
-				<!--empty area for form error/success output-->
-					<div class="row">
-						<div class="col-xs-12">
-							<div id="output-area"></div>
+						<!--empty area for form error/success output-->
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="output-area"></div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -207,11 +209,8 @@
 		<footer>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3"
-					">
-					<a href="#page-top"
-					<button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-lg"
-																				 aria-hidden="true"></i></button>
+					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
+					<a href="#page-top" <button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-lg" aria-hidden="true"></i></button>
 					</a>
 					<a href="https://twitter.com/sarahruthfinkel" target="_blank"
 					<button type="button" class="btn btn-link"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
