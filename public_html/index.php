@@ -61,6 +61,7 @@
 	<body>
 		<header>
 		<div class="container-fluid" id="page-top">
+		<!--	Video container		-->
 			<div class="row">
 				<div class="embed-responsive embed-responsive-16by9">
 					<!-- Add media queries to both medium and 992px width -->
@@ -68,6 +69,8 @@
 				</div>
 			</div>
 		</div>
+
+			<!--	Navigation 		-->
 			<nav class="navbar navbar-fixed-top navbar-transparent" role="navigation">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -84,12 +87,8 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li><a href="#about">
-									<button type="button" class="btn btn-link btn-sm">About</button>
-								</a></li>
-							<li><a href="#portfolio">
-									<button type="button" class="btn btn-link btn-sm">Portfolio</button>
-								</a></li>
+							<li class="active"><a href="#about">About <span class="sr-only">(current)</span></a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
 							<li><a href="https://twitter.com/sarahruthfinkel" target="_blank"><i class="fa fa-twitter fa-lg"
 																														aria-hidden="true"></i></a>
 							</li>

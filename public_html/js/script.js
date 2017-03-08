@@ -10,12 +10,12 @@ $(document).ready(function() {
 	/* on home page ONLY, swap out navabar classes if user scrolls down 50 px */
 	$(window).scroll(function() {
 
-		if($(this).scrollTop() > 200) {
+		if($(this).scrollTop() > 50) {
 			$('.navbar').addClass('navbar-default').removeClass('navbar-transparent');
 		}
 
 		/* when user scrolls back up, reset navbar*/
-		if($(window).scrollTop() <= 100) {
+		if($(window).scrollTop() <= 50) {
 			$('.navbar').addClass('navbar-transparent').removeClass('navbar-default');
 		}
 
