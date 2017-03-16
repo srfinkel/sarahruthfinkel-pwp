@@ -44,3 +44,14 @@ Also, the images directory needs to be within public_html
 
 
 ### Overall, fantastic job. Just a couple things you need to watch out for. Your wireframes are very nice, and I'm excited to see what you actually do with the site. You've passed Milestone 2a in Tier III. Great work.
+
+## Milestone 3 / Final PWP Feedback
+Beautiful job on your PWP! I hope this was a great experience in front end development for you. Overall things are looking good on both mobile and desktop - and your contact form appears to work perfectly on my end. Check and see if you received my test message.
+
+When I view the site on mobile (via devtools) I do see a horizontal scrollbar along the bottom - so check your HTML/Bootstrap grid structure and CSS for inconsistencies. It might need some minor tweaking. 
+
+You've created a beautiful site here. Some additional suggestions: 
+- Try some custom jQuery to enable smooth scrolling on the anchor links.
+- Try flipping the colors on the icons in the navbar - light colored icons when nav is transparent, dark colored icons when nav is white.
+
+Wonderful job - your PWP passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
