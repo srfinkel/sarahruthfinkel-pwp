@@ -4,7 +4,7 @@
 		<meta charset="utf-8"/>
 		<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<!-- Bootstrap Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -72,15 +72,16 @@
 		</div>
 
 			<!--	Navigation 		-->
-			<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+			<nav class="navbar navbar-fixed-top navbar-transparent" role="navigation">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+							<i class="fa fa-bars fa-sm" aria-hidden="true"></i>
+<!--							<span class="icon-bar"></span>-->
+<!--							<span class="icon-bar"></span>-->
+<!--							<span class="icon-bar"></span>-->
 						</button>
 						<a class="navbar-brand" href="#page-top">Sarah Ruth Finkel</a>
 					</div>
@@ -89,11 +90,11 @@
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="#about">About <span class="sr-only">(current)</span></a></li>
 							<li><a href="#portfolio">Portfolio</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-left">
 							<li><a href="https://twitter.com/sarahruthfinkel" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-							<li><a href="https://www.linkedin.com/in/srfinkel" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
-							</li>
-							<li><a href="https://github.com/srfinkel" target="_blank"><i class="fa fa-github fa-lg"
-																											 aria-hidden="true"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/srfinkel" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+							<li><a href="https://github.com/srfinkel" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
@@ -115,7 +116,7 @@
 							<em>"There is a vitality, a life force, an energy, a quickening that is translated through you into action, and because there is only one of you in all of time, this expression is unique. And if you block it, it will never exist through any other medium and it will be lost. The world will not have it." </em><br>–Martha Graham, dancer and choreographer</p>
 					</div>
 					<div class="col-xs-12 col-md-9">
-						<p id="bio">Originally from Chicago, Sarah Ruth has been a professional graphic designer for 16 years. Her clients have included the <a href="https://www.cabq.gov/culturalservices/biopark/camps-classes/teachers/outreach/biovan" target="_blank">ABQ BioPark</a>, <a href="http://www.lacasanorte.org/" target="_blank">La Casa Norte</a>, <a href="http://chicagoreporter.com/" target="_blank">Chicago Reporter</a>, Alien Arts Recording Studio and <a href="http://www.blackstarproject.org/" target="_blank">The Black Star Project</a>. As an environmental justice activist, Sarah Ruth wrote a column, Metropolimón, for <a href="http://www.extranews.net/" target="_blank">Extra Bilingual Newspaper</a> discussing environmental concerns in Chicago’s latino neighborhoods. As an educator, she has partnered with community organizations, such as <a href="http://pilsenperro.org/" target="_blank">PERRO (Pilsen Environmental Rights and Reform Organization)</a> and <a href="http://elevartestudio.org/" target="_blank">Elevarte</a>, teaching skills in mud stenciling, seed saving and art in activism. In 2011, Sarah Ruth co-curated the exhibition <em>Everyone Matters</em>, at the <a href="http://nmprac.org/" target="_blank">National Museum of Puerto Rican Arts and Culture</a> that told stories of resilience and positive life choices by Humboldt Park neighborhood residents. In 2014, Sarah Ruth performed with <a href="http://www.circapintig.com/" target="_blank">Circa PINTIG</a> in their production of <em>Scent of Home: Short Stories by Bienvenido Santos</em> and was a bilingual song leader in the <a href="http://opera-matic.org/" target="_blank">Opera-Matic</a> community performance Moon on the Lagoon. Sarah Ruth continues her studio art practice in ceramics, is an avid community gardener, and holds a BFA from Syracuse University. Sarah Ruth runs Soda Fire Media, a business specializing in custom artwork in digital and ceramic media.</p>
+						<p id="bio">Originally from Chicago, Sarah Ruth has been a professional front-end web developer and graphic designer for 16 years. Her clients have included the <a href="https://www.cabq.gov/culturalservices/biopark/camps-classes/teachers/outreach/biovan" target="_blank">ABQ BioPark</a>, <a href="http://www.lacasanorte.org/" target="_blank">La Casa Norte</a>, <a href="http://chicagoreporter.com/" target="_blank">Chicago Reporter</a>, Alien Arts Recording Studio and <a href="http://www.blackstarproject.org/" target="_blank">The Black Star Project</a>. As an environmental justice activist, Sarah Ruth wrote a column, Metropolimón, for <a href="http://www.extranews.net/" target="_blank">Extra Bilingual Newspaper</a> discussing environmental concerns in Chicago’s latino neighborhoods. As an educator, she has partnered with community organizations, such as <a href="http://pilsenperro.org/" target="_blank">PERRO (Pilsen Environmental Rights and Reform Organization)</a> and <a href="http://elevartestudio.org/" target="_blank">Elevarte</a>, teaching skills in mud stenciling, seed saving and art in activism. In 2011, Sarah Ruth co-curated the exhibition <em>Everyone Matters</em>, at the <a href="http://nmprac.org/" target="_blank">National Museum of Puerto Rican Arts and Culture</a> that told stories of resilience and positive life choices by Humboldt Park neighborhood residents. In 2014, Sarah Ruth performed with <a href="http://www.circapintig.com/" target="_blank">Circa PINTIG</a> in their production of <em>Scent of Home: Short Stories by Bienvenido Santos</em> and was a bilingual song leader in the <a href="http://opera-matic.org/" target="_blank">Opera-Matic</a> community performance Moon on the Lagoon. Sarah Ruth continues her studio art practice in ceramics, is an avid community gardener, and holds a BFA from Syracuse University. Sarah Ruth runs Soda Fire Media, an Albuquerque-based small business specializing in custom digital and ceramic artwork.</p>
 					</div>
 				</div>
 			</div>
@@ -145,7 +146,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-md-6 col-md-offset-3">
-
+						<h1>Contact me</h1>
 						<!--Begin Contact Form-->
 						<form id="contact-form" action="php/mailer.php" method="post">
 							<div class="form-group">
@@ -198,6 +199,16 @@
 								<div id="output-area"></div>
 							</div>
 						</div>
+
+						<div class="row">
+							<div class="col-xs-12 col-md-6 col-md-offset-3">
+								<p>Download Resume</p><a><img src="images/SarahRFinkel.NM.TechResume.2017.pdf"
+									<button type="button" class="btn btn-link"><i class="fa fa-download" aria-hidden="true"></i>
+									</button>
+								</a>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
@@ -205,20 +216,21 @@
 		<footer>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
-					<a href="#page-top" <button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-lg" aria-hidden="true"></i></button>
-					</a>
-					<a href="https://twitter.com/sarahruthfinkel" target="_blank"
-					<button type="button" class="btn btn-link"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
-					</button>
-					</a>
-					<a href="https://www.linkedin.com/in/srfinkel" target="_blank"
-					<button type="button" class="btn btn-link"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
-					</button>
-					</a>
-					<a href="https://github.com/srfinkel" target="_blank"
-					<button type="button" class="btn btn-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i></button>
-					</a>
+					<div class="text-right">
+						<a href="#page-top"<button type="button" class="btn btn-link"><i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i></button></a>
+					</div>
+				</div>
+				<div class="row" id="bottom-footer">
+					<div class="text-center">
+						<a href="https://twitter.com/sarahruthfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></button></a>
+						<a href="https://www.linkedin.com/in/srfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></button></a>
+						<a href="https://github.com/srfinkel" target="_blank"<button type="button" class="btn btn-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i></button></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="text-left">
+						<p id="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> Sarah Ruth Finkel 2017</p>
+					</div>
 				</div>
 			</div>
 		</footer>
