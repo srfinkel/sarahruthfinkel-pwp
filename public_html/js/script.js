@@ -22,25 +22,3 @@ $(document).ready(function() {
 	});
 
 });
-
-// //determines the size of the viewport
-// 		var height = $(window).height(),
-// 			width = $(window).width();
-//
-// 		//function to handle scrolling on button click
-//
-// 		$(function() { // adapted from Edu Lomeli http://stackoverflow.com/questions/27558323/bootstrap-scroll-down-when-the-user-clicks-the-button
-// 			$('.scroll').click(function() {
-// 				if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-// 					var target = $(this.hash);
-// 					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-// 					if(target.length) {
-// 						$('html,body').animate({
-// 							scrollTop: (target.offset().top) // adjust this according to your content
-//
-// 						}, 500);
-// 						return false;
-// 					}
-// 				}
-// 			});
-// 		});
