@@ -109,6 +109,10 @@ video {
 	padding-top: 30px;
 }
 
+#resume {
+	font-family: 'Roboto Slab', serif;
+}
+
 .thumbnail {
 	max-width: 100%;
 }
