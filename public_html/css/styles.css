@@ -105,12 +105,16 @@ video {
 	border-color: lightgray;
 }
 
-#portfolio {
-	padding-top: 30px;
+a:active {
+	color: sandybrown;
 }
 
-#resume {
-	font-family: 'Roboto Slab', serif;
+a:visited {
+	color: grey;
+}
+
+#portfolio {
+	padding-top: 30px;
 }
 
 .thumbnail {
