@@ -1,3 +1,16 @@
+/************************
+* html/body
+************************/
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+/************************
+* navigation
+************************/
+
 .navbar.navbar-fixed-top {
 	transition-property: all;
 	transition-duration: 0.8s;
@@ -5,25 +18,47 @@
 	transition-delay: 0.1s;
 }
 
-.navbar-inverse {
-	background-color: transparent !important;
+.navbar-transparent {
+	background-color: transparent;
+}
+
+.navbar-main {
+	background-color: white;
+	box-shadow: rgba(108, 108, 108, 0.3) 2px 2px;
 }
 
 nav {
 	font-family: 'Open Sans', serif;
 }
 
+.navbar .navbar-brand:focus,
+.navbar .navbar-brand:hover,
+.navbar .navbar-nav>li>a:focus,
+.navbar .navbar-nav>li>a:hover {
+	color: grey;
+}
+
 a, ul.nav, nav.li, a:visited{
-	color: sandybrown !important;
+	color: sandybrown;
 }
 
 a, ul.nav, nav.li, a:active {
-	color: white !important;
+	color: white;
 }
 
 ul.nav, li.active, a{
-	color: sandybrown !important;
+	color: sandybrown;
 }
+
+@media (max-width: 768px){
+	.navbar-left {
+		display: none;
+	}
+}
+
+/************************
+* main
+************************/
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
@@ -93,13 +128,24 @@ video {
 }
 
 .btn-xs {
-	margin-outside: 10px;
+	margin: 10px;
 }
 
-/*.navbar-toggle {*/
-	/*color: rgba(244, 164, 96, 1) !important;*/
-/*}*/
+/************************
+* footer
+************************/
+
+#bottom-footer {
+	background-color: sandybrown;
+	bottom:0;
+}
+
+#copyright {
+	padding-top: 10px;
+	margin-left: 10px;
+	bottom: 0;
+}
 
 body {
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 }
