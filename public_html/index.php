@@ -60,8 +60,8 @@
 	</head>
 	<body>
 		<header id="page-top">
-		<div class="container-fluid">
-		<!--	Video container		-->
+			<!--	Video container		-->
+			<div class="container-fluid">
 			<div class="row">
 				<div class="embed-responsive embed-responsive-16by9">
 					<!-- Add media queries to both medium and 992px width -->
