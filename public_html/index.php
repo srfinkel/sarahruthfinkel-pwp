@@ -121,7 +121,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-3">
-						<a href="images/SarahRFinkel.NMTechnicalResume.pdf" target="_blank"<button type="button" class="btn btn-default btn-sm">Sarah Ruth's Resume</button></a>
+						<a href="images/SarahRFinkel.NM.TechResume.2017.pdf" target="_blank"<button type="button" class="btn btn-default btn-sm">Sarah Ruth's Resume</button></a>
 					</div>
 				</div>
 			</div>
