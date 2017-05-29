@@ -21,4 +21,8 @@ $(document).ready(function() {
 
 	});
 
+	function standby() {
+		document.getElementById('wheel').src = 'images/sararuthfinkel-ceramics.jpg'
+	}
+
 });

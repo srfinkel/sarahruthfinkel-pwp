@@ -67,6 +67,7 @@
 					<!-- Add media queries to both medium and 992px width -->
 					<video src="video/sample-vid.webm" type="video/webm" autoplay muted loop
 					</video>
+					<img id="wheel" src="images/sarahruthfinkel-ceramics.jpg" onerror="standby()">
 				</div>
 			</div>
 		</div>
